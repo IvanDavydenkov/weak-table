@@ -6,7 +6,6 @@ const Item = ({ selected, onClick, value }) => {
 	const handleClick = () => {
 		onClick()
 	}
-	
 	const handleItemClick = () => {
 		itemRef.current.focus()
 	}
